@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="play()">Play Sound</button>
+
+<audio id="a" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+
+<script>
+function play(){
+  a.play();
+}
+</script>
+</body>
+</html>
